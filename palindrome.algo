@@ -13,7 +13,6 @@ BEGIN
     ELSE
         RETURN false; // if the word is not palindrom  
     END_IF
-    RETURN value 
 END
 
 
