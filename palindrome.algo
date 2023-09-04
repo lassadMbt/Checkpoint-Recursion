@@ -1,0 +1,20 @@
+FUNCTION is_palindrome(k,i INTEGER, ch: STRING) : BOOLEAN
+
+BEGIN
+
+    k := ch.length;
+    i := 0;
+    IF (k <= 1) THEN
+        RETURN true;     //an empty word or a single character word is a palindrome
+
+    //Check if the first and last characters are equal
+    ELSE_IF (ch[0] == ch[i-1]) THEN
+        RETURN is_palindrome(substring(word,2,length-2)) // her will gonna see if the character numbre 2 is equal to the second last character(ch.length-2)
+    ELSE
+        RETURN false; // if the word is not palindrom  
+    END_IF
+    RETURN value 
+END
+
+
+ 
